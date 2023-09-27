@@ -1,38 +1,33 @@
-/* if you are using any Google fonts change the font names below to your fonts.
-Any spaces in your font name should be replaced with a +.
+/* if you are using any Google fonts change the font names below to your fonts. 
+Any spaces in your font name should be replaced with a +. 
 Fonts are separated by a & */
 @import url('https://fonts.googleapis.com/css2?family=IM+Fell+French+Canon&family=Lato:ital,wght@0,400;0,700;1,400&display=swap');
 
-
 :root {
   /* change the values below to your colors from your palette */
-  --primary-color: #CAF0F8   ;
-  --secondary-color: #03045E ;
-  --accent1-color: #00B4D8;
+  --primary-color: #396E94   ;
+  --secondary-color: #E7C24F ;
+  --accent1-color: #A42212;
   --accent2-color: white;
-
 
   /* change the values below to your chosen font(s) */
   --heading-font: "IM Fell French Canon";
   --paragraph-font: Lato, Helvetica, sans-serif;
 
-
   /* these colors below should be chosen from among your palette colors above */
-  --headline-color-on-white: #CAF0F8;  /* headlines on a white background */
-  --headline-color-on-color: white; /* headlines on a colored background */
-  --paragraph-color-on-white: #CAF0F8; /* paragraph text on a white background */
-  --paragraph-color-on-color: white; /* paragraph text on a colored background */
-  --paragraph-background-color: #CAF0F8  ;
-  --nav-link-color: #CAF0F8;
-  --nav-background-color: #03045E;
+  --headline-color-on-white: #396E94;  /* headlines on a white background */ 
+  --headline-color-on-color: white; /* headlines on a colored background */ 
+  --paragraph-color-on-white: #396E94; /* paragraph text on a white background */ 
+  --paragraph-color-on-color: white; /* paragraph text on a colored background */ 
+  --paragraph-background-color: #396E94  ;
+  --nav-link-color: #396E94;
+  --nav-background-color: #D4AC0D;
   --nav-hover-link-color: white;
-  --nav-hover-background-color: #CAF0F8;
+  --nav-hover-background-color: #396E94;
 }
 
 
-@import url('https://fonts.googleapis.com/css2?family=IM+Fell+French+Canon&family=Lato:ital,wght@0,400;0,700;1,400&display=swap');;
 /*  Look around below...but DON'T CHANGE ANYTHING! */
-
 
 body {
   max-width: 960px;
@@ -79,7 +74,7 @@ p {
   text-align: center;
 }
 .colors th {
-  background-color: #03045E;
+  background-color: #999;
 }
 .colors td{
   width: 25%;
@@ -128,7 +123,6 @@ nav a:hover {
   display: grid;
   justify-content: center;
 
-
   grid-template-columns: repeat(6, 15%);
   grid-template-rows: 3em 1.5em 1.5em 3em;
   grid-template-areas: ". . home home . ."
@@ -141,17 +135,17 @@ nav a:hover {
 }
 .sm-home {
   grid-area: home;
-  background-color: #03045E;
+  background-color: #ccc;
   line-height: 3em;
 }
 .sm-page2 {
   grid-area: page2;
-  background-color: #03045E;
+  background-color: #ccc;
   line-height: 3em;
 }
 .sm-page3 {
   grid-area: page3;
-  background-color: #03045E;
+  background-color: #ccc;
   line-height: 3em;
 }
 .top {
