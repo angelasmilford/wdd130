@@ -1,14 +1,40 @@
-nav a
-#hero-msg h1, #hero-msg h4
-.button-box
-main section
+#content{
+    max-width:1600px;
+    width: 300px;
+    margin: 0 auto;
+    text-align: center;
+}
+/*the whole page is adjusted by this selector*/
+
+nav a{
+    text-align: center;
+}
+/*navigation panel is centerred*/
+
+#hero-msg h1{
+    text-align: center;
+} 
+/**/
+
+#hero-msg h4{
+    text-align: center;
+}
+/**/
+
+.button-box{
+    text-align: center;
+}
+/**/
+
+main section{
+    text-align: center;
+}
 /**/
 
 #background {
     height: 725px;
 }
 /*background's height is adjusted to 725px*/
-
 
 body {
     background-color: #fcfbfb; 
@@ -48,78 +74,3 @@ footer p a:hover {
     text-decoration: underline;
 }    
 /*footer now has an interactive tool that'll underline the text once the cursor is rested on it.*/
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-/*h1{
-    color: blue; 
-    text-align: center;
-    font-size: 25px;
-    background-color: white;
-}*/
-/*headline is centered, its font-size is 25 pixels, and its color is blue.*/
-
-/*body{
-    background-color: lightblue;
-}*/
-/*backgroung of the body element is lightblue.*/
-
-/*p{
-    background-color: white;
-    font-size: 12px;
-    color: blue;
-    margin-top: 35px;
-}*/
-/*paragraph's background color is white, its font-size is 12 pixels, and its color is blue.*/
-
-/*div{
-    height: 200px;
-    width: 50%;
-    background-color:navy;
-}*/
-/*div is */
-
-/*img{
-    margin: auto;
-    width: 60%;
-}*/
-/*image's margin will automatically size itself and its width is 69%*/
-
-/*.center{
-    margin: auto;
-    width: 60%;
-    border: 4px solid black;
-    padding: 10px;
-}*/
-/*this centers the the page.*/
-
-div{
-    max-width: 1600px;
-}
-/**/
-
-a:hover {
-    background-color: white;
-    color: steelblue;
-}
