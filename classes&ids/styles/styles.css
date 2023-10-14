@@ -1,9 +1,11 @@
-.main-para {
+*.main-para {
     font-size: 1.5em;
     line-height: 1.5em;
 }
+/*This targets all elements in class "main-para" (using "." before) and styles their font-size and line-height to be bigger.*/
 
 #active {
-    background-color: white;
+    background-color: pink;
     color: steelblue;
 }
+/*This targets the one id "active" (using "#" before) and styles the background and font color of the home page link*/

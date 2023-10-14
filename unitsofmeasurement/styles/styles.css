@@ -1,14 +1,14 @@
-/*img {
+img {
     width: 80%;
-}*/
-/*increases the image's width by 80%.*/
+}
+/*This increases the Image's width in the Main section of BODY by 80%.*/
 
 p {
     width: 80%;
 }
-/*the paragraph element's width increases to 80%.*/
+/*This increases the Paragraph in the Main section of the BODY by 80%.*/
 
 a {
     font-size: 1.5em;
 }
-/*makes the texts in the navigation panel more readable by increasing it font-size to 1.5 em*/
+/*This increases the Font Size for the Hyperlinks in the NAVigation Panel.*/

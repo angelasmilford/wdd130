@@ -1,51 +1,74 @@
+/*img {
+    width: 30%;
+}*/
+/*This adjusts the Images's Width to 30%
+Also make both Images Inline as they both have a sufficient amount of space.*/
+
 img {
     width: 80%;
 }
-/*enhances the image's width to 80%*/
+/*This adjusts the Image's width to 80%*/
 
-/** {
+* {
     border: 2px solid blue;
-}*/
-/*Outlines the borders of each element in the page. The invisible box(es) are now visible.*/
+}
+/*This outlines all the Borders color Blue of all of the BODY elements.
+"*" I believe refers to the whole page.*/
 
 /*body {
     text-align: center;
 }*/
-/*centers the whole page*/
+/*This aligns the Texts and Images in the BODY to the center.*/
 
-/*h1 {
+h1 {
     text-align: center;
-}*/
-/*centers only the headline*/
+}
+/*This aligns the Title only.*/
 
-/*nav, footer {
+nav, footer {
     text-align: center;
-}*/
-/*centers the footer*/
+}
+/*This is accomodating to two elements because it aligns the text and perhaps images of both the NAVigation Panel and the Footer.*/
 
-/*img {
+img {
     width: 80%;
     display: block;
     margin: 0 auto;
-}*/
-/*centers the image*/
+}
+/*This adjusts the Width, Display, and Margin of the Images.
+The Width is 80%
+The Image is in a Block
+The Margin centers the Image.*/
 
 /*main p {
     width: 80%;
     margin: 0 auto;
 }*/
-/*centers the container that contains the paragraph*/
+/*Paragraph elements don't need Displaying since they're already Block Elements.
+This adjusts the Width to 80%
+and the Margin centers the Container the Paragraph is in, not the text.*/
 
 /*main p {
     width: 80%;
     margin: 0 auto;
     text-align: center;
 }*/
-/*this centers the paragraph itself*/
+/*This centers both the container of the Paragraph and the Text in the Paragraph.
+Width is 80%
+Margin centers the Container of the Paragraph
+Texts in the Paragraph element is Centerred.*/
 
-/*main p {
+main p {
     width: 80%;
     margin: 50px auto;
     text-align: center;
+}
+/*This still keeps the Paragraph Container and its Text centerred.
+Width is 80%
+Margin is 50px thick
+Texts are Centerred.*/
+
+/* * {
+    border: 2px solid blue;
 }*/
-/*adds more margin at top and bottom of paragraph*/
+/*Deleting this would simply erase the outline Borders of the entire webpage (or simply the whole of the BODY element) that is color Blue.*/

@@ -1,64 +1,95 @@
 <!DOCTYPE html>
 <html lang="en">
-
     <head>
         <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
         <title>Wireframe 2 HTML</title>
     </head>
 
     <body>
+        <!--The content within the HEADER element is located at the very top.-->
         <header>
-            <div class="">
-                <img src="https://rnz-ressh.cloudinary.com/image/upload/s--cJ4XTfDE--/c_scale,f_auto,q_auto,w_1050/v1643681833/4MWOV5X_image_crop_97809" 
+
+            <!--This is a Non-Semantic element that tells nothing about its content. It also has a class called "logo-box".-->
+            <div class='logo-box'>
+                <!--The Image and Alternative Text are in class "logo-box"-->
+                <img src="https://picsum.photos/id/1084/536/354?grayscale" 
                 alt="logo">
             </div>
+
+            <!--This is a Semantic element that clearly defines its content. It has internal links for: Home page, Page 1, Page 2, and Page 3.-->
             <nav>
-                <a href='index.html'>Home</a>
+                <a href='indextwo.html'>Home</a>
+                <!--In actuality, these Pages would have names, we'll let is slide for now.-->
                 <a href='#'>Page 1</a>
                 <a href='#'>Page 2</a>
                 <a href='#'>Page 3</a>
             </nav>
         </header>
+
+        <!--The MAIN section is the Banner area.-->
         <main>
             <div id='banner-box'>
+                <!--This is the banner for the First Image.-->
                 <section class='banner'>
-                    <img src="https://c8.alamy.com/comp/2AD8NNH/samoa-and-fiji-flag-waving-in-the-wind-against-white-cloudy-blue-sky-together-diplomacy-concept-international-relations-2AD8NNH.jpg" alt="banner image desc">
+                    <img src='https://picsum.photos/id/237/536/354'alt='banner image desc'>
                     <h2>Banner 1 Title</h2>
-                    <p>Banner 1 Paragraph</p>
+                    <p>Banner 1 Text Paragraph</p>
                 </section>
+
+                <!--This is the banner for the Second Image.-->
                 <section class='banner'>
-                    <img src="https://c8.alamy.com/comp/2AD8NNH/samoa-and-fiji-flag-waving-in-the-wind-against-white-cloudy-blue-sky-together-diplomacy-concept-international-relations-2AD8NNH.jpg" alt="banner image desc">
+                    <img src='https://picsum.photos/id/237/536/354'alt='banner image desc'>
                     <h2>Banner 2 Title</h2>
-                    <p>Banner 2 Paragraph</p>
+                    <p>Banner 2 Text Paragraph</p>
                 </section>
+
+                <!--This is the banner for the Third Image.-->
                 <section class='banner'>
-                    <img src="https://c8.alamy.com/comp/2AD8NNH/samoa-and-fiji-flag-waving-in-the-wind-against-white-cloudy-blue-sky-together-diplomacy-concept-international-relations-2AD8NNH.jpg" alt="banner image desc">
+                    <img src='https://picsum.photos/id/237/536/354'alt='banner image desc'>
                     <h2>Banner 3 Title</h2>
-                    <p>Banner 3 Paragraph</p>
+                    <p>Banner 3 Text Paragraph</p>
                 </section>
             </div>
+
+            <!--This non-semantic element contains the Products that will be displayed through Image and Texts.-->
             <div id='product-gallery'>
+            <!--All of the Products share one id called "product-gallery".-->
+                <!--This SECTION is for Product 1.-->
                 <section class='product'>
-                    <img src="https://cdn.britannica.com/08/3308-050-9DB345F2/Flag-Samoa.jpg" alt="product image desc">
+                <!--All of the products are in a class called "product"-->
+                    <!--This displays the Image for Product 1.-->
+                    <img src='https://picsum.photos/536/354' alt='banner image desc'>
+                    <!--These Texts convey the details of the Product 1.-->
                     <h2>Product 1 Title</h2>
-                    <p>Product 1 Paragraph</p>
+                    <p>Product 1 Description</p>
                 </section>
+
+                <!--This SECTION is for Product 2.-->
                 <section class='product'>
-                    <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/b/ba/Flag_of_Fiji.svg/255px-Flag_of_Fiji.svg.png" alt="product image desc">
+                <!--All of the Products are in a class called "product"-->
+                    <!--This displays the Image of Product 2.-->
+                    <img src='https://picsum.photos/536/354' alt='banner image desc'>
+                    <!--These Texts convey the details of the Product 2.-->
                     <h2>Product 2 Title</h2>
-                    <p>Product 2 Paragraph</p>
+                    <p>Product 2 Description</p>
                 </section>
+
+                <!--This SECTION is for Product 3.-->
                 <section class='product'>
-                    <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/8/87/Flag_of_American_Samoa.svg/1200px-Flag_of_American_Samoa.svg.png" alt="product image desc">
+                <!--All of the Products are in a class called "product"-->
+                    <!--This displays the Image of Product 3.-->
+                    <img src='https://picsum.photos/536/354' alt='banner image desc'>
+                    <!--These Texts convey the details of the Product 3.-->
                     <h2>Product 3 Title</h2>
-                    <p>Product 3 Paragraph</p>
+                    <p>Product 3 Description</p>
                 </section>
             </div>
         </main>
-        <footer>
 
+        <footer>
+            <!--This is usually displayed at the bottom of the webpage.-->
         </footer>
     </body>
-
 </html>

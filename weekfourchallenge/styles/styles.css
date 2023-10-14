@@ -1,0 +1,45 @@
+body{
+    background-color: pink;
+    text-align: center;
+}
+/*The Background Color of the Webpage is now Pink.*/
+/*This aligns the Texts and Images in the BODY to the center.*/
+
+    header h1{
+        font-color: white;
+    }
+    /*This adjusts the Font Color for the Title, Second Headline, and Paragraph.*/
+
+    body h2:{
+        font-color: white;
+    }
+
+    .first-para{
+        font-color: white;
+    }
+    /*This adjusts the color for the Paragraph in Class "first-para"*/
+
+    h3{
+        font-color: black;
+    }
+    /*This colors the Font COlor of List to White.*/
+
+    .second-para{
+        font-color: white;
+    }
+    /*This adjusts the color for the Paragraph in Class "second-para".*/
+
+    img {
+        width: 15%;
+        display: block;
+        margin: 0 auto;
+    }
+    /*This adjusts the Width, Display, and Margin of the Images.
+    The Width is 80%
+    The Image is in a Block
+    The Margin centers the Image.*/
+
+    footer {
+        text-align: center;
+    }
+    /*Centers the Footer.*/
