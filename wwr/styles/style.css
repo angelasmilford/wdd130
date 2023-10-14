@@ -1,76 +1,111 @@
 #content{
-    max-width:1600px;
-    width: 300px;
-    margin: 0 auto;
+    max-width: 1600px;
     text-align: center;
+    margin :0 auto;
 }
-/*the whole page is adjusted by this selector*/
+/*Max Width of elements in ID "content" are set to 1600 px.
+Texts and Images in "content" ID are Centerred.*/
 
 nav a{
     text-align: center;
+    background-color: white;
+    color: navy;
+    text-decoration: none;
 }
-/*navigation panel is centerred*/
+/*Hyperlinks in Navigation Panel are Centerred.*/
+nav a:hover{
+    background-color:navy;
+    color:white;
+}
+/*hovering Navigation Panel turns Background Color to Navy and Font Color to White.*/
 
-#hero-msg h1{
+#hero-msg{
     text-align: center;
 } 
-/**/
+/*elements in ID "hero-msg" are Centerred.*/
 
-#hero-msg h4{
+h1{
+    text-align: center;
+} 
+/*Title is Centerred.*/
+
+#hero-msg{
+    text-align: center;
+} 
+/*elements in ID "hero-msg" are Centerred.*/
+
+h4{
     text-align: center;
 }
-/**/
+/*Headline #4 is Centerred.*/
 
 .button-box{
     text-align: center;
 }
-/**/
+/*elements in Class "button-box" are Centerred.*/
 
 main section{
     text-align: center;
 }
-/**/
+/*elements in the Main section are Centerred.*/
 
 #background {
     height: 725px;
+    background-color: white;
+    color: navy;
 }
-/*background's height is adjusted to 725px*/
+/*Background has a height of 725px.*/
 
-body {
-    background-color: #fcfbfb; 
+body{
+    background-color: navy;
+    color: white;
 }
-header {
-    background-color:rgba(20,30,13, .7);
-}
-nav a:hover {
-    background-color: black;
-}
-/*body, header, and nav background colors are adjusted.*/
+/*BODY's Background Color is adusted to Navy.*/
 
-nav a:hover {
-    background-color: black;
-    color: #d9c2a3;
+header{
+    background-color: white;
+    font: navy;
+}
+/*This adjusts HEADER's Background Color to White and Font Color to Navy.*/
+
+.book{
+    background-color: navy;
+    color: white;
+}
+/*Class "book" has a Background Color of Navy and Font Color of White.*/
+.book hover{
+    background-color: white;
+    color: navy;
+}
+/*when Hovering, Class "book" changes to having a Background Color to White and Font Color to White.*/
+
+.join{
+    background-color: navy;
+    color: white;
+}
+/*Class "join" has a Navy Background Color and White Font Color.*/
+
+.msg{
+    background-color: white;
+    color: navy;
+}
+/*Class "msg" has a Background Color that's White and Font Color of Navy.*/
+
+footer{
+    background-color: blue;
+    color: white;
+}
+/*Footer has a Blue Background Color and White Font Color.*/
+footer p {
+    font-size: 1.2em;
 }    
-/*interactive tool that'll work when user's cursor rests on the navigation panel.*/
+/*The Paragraph in Footer is 1.2em.*/
+footer p a:hover {
+    text-decoration: underline;
+}    
+/*When Hovering, Footer's Paragraph will Underline.*/
 
 .icon {
     width: 80px;
 }
-/*icon's width are adjusted.*/
-
-nav a {
-    text-align: center;
-    color: #fcfbfb;
-    text-decoration: none;
-}    
-/*navigation panel is centered, font color is white, and there aren't any text-decoration.*/
-
-footer p {
-    font-size: 1.2em;
-}    
-/*footer's font-size is adjusted*/
-
-footer p a:hover {
-    text-decoration: underline;
-}    
-/*footer now has an interactive tool that'll underline the text once the cursor is rested on it.*/
+/*Class "icon" has Width of 80 px.*/

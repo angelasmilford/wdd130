@@ -1,0 +1,22 @@
+nav, footer {
+    background-color: steelblue;
+    color: white;
+    padding: 10px;
+}
+/*fills colors in containers nav and footer with stell blue,
+changes font color to white,
+padding now has 10 pixels.*/
+
+/*footer p {
+    font-size: 20px;
+    margin: 20px auto;
+}*/
+/*increases the font size of the footer
+and adds more margin top, bottom, left, and right with 20 pixels.*/
+
+a:hover {
+    background-color: white;
+    color: steelblue;
+}
+/*creates an interactive navigation panel that highlights text when user's cursor hovers over the panel.
+this is can only be done with the "nav, footer" selector activated, for it needs a background color that will help "a:hover" do its job.*/

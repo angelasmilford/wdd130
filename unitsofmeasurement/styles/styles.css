@@ -1,0 +1,14 @@
+/*img {
+    width: 80%;
+}*/
+/*increases the image's width by 80%.*/
+
+p {
+    width: 80%;
+}
+/*the paragraph element's width increases to 80%.*/
+
+a {
+    font-size: 1.5em;
+}
+/*makes the texts in the navigation panel more readable by increasing it font-size to 1.5 em*/

@@ -1,0 +1,51 @@
+img {
+    width: 80%;
+}
+/*enhances the image's width to 80%*/
+
+/** {
+    border: 2px solid blue;
+}*/
+/*Outlines the borders of each element in the page. The invisible box(es) are now visible.*/
+
+/*body {
+    text-align: center;
+}*/
+/*centers the whole page*/
+
+/*h1 {
+    text-align: center;
+}*/
+/*centers only the headline*/
+
+/*nav, footer {
+    text-align: center;
+}*/
+/*centers the footer*/
+
+/*img {
+    width: 80%;
+    display: block;
+    margin: 0 auto;
+}*/
+/*centers the image*/
+
+/*main p {
+    width: 80%;
+    margin: 0 auto;
+}*/
+/*centers the container that contains the paragraph*/
+
+/*main p {
+    width: 80%;
+    margin: 0 auto;
+    text-align: center;
+}*/
+/*this centers the paragraph itself*/
+
+/*main p {
+    width: 80%;
+    margin: 50px auto;
+    text-align: center;
+}*/
+/*adds more margin at top and bottom of paragraph*/
