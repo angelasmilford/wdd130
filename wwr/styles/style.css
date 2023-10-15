@@ -1,3 +1,6 @@
+@import font-family: serif;
+/*Font Family for the entire Webpage.*/
+
 #content{
     max-width: 1600px;
     text-align: center;
@@ -11,6 +14,7 @@ nav a{
     background-color: white;
     color: navy;
     text-decoration: none;
+    padding: 35px;
 }
 /*Hyperlinks in Navigation Panel are Centerred.*/
 nav a:hover{
@@ -29,11 +33,6 @@ h1{
 } 
 /*Title is Centerred.*/
 
-#hero-msg{
-    text-align: center;
-} 
-/*elements in ID "hero-msg" are Centerred.*/
-
 h4{
     text-align: center;
 }
@@ -46,8 +45,9 @@ h4{
 
 main section{
     text-align: center;
+    box-sizing: border-box;
 }
-/*elements in the Main section are Centerred.*/
+/*elements in the Section of MAIN are Centerred.*/
 
 #background {
     height: 725px;
@@ -59,8 +59,17 @@ main section{
 body{
     background-color: navy;
     color: white;
+    font-family: Raleway, Arial, sans-serif;
+    font-size: 22px;
+    margin: 0;
+    padding: 0;
 }
 /*BODY's Background Color is adusted to Navy.*/
+
+h2 {
+    margin: 0;
+}
+/*Headline 2 has a Margin of 0.*/
 
 header{
     background-color: white;
@@ -71,31 +80,50 @@ header{
 .book{
     background-color: navy;
     color: white;
+    padding: 15px 30px;
 }
 /*Class "book" has a Background Color of Navy and Font Color of White.*/
 .book hover{
-    background-color: white;
-    color: navy;
+    background-color: navy;
+    color: white;
+    font-size: 18px;
+    margin-top: 50px;
 }
 /*when Hovering, Class "book" changes to having a Background Color to White and Font Color to White.*/
 
 .join{
     background-color: navy;
     color: white;
+    font-size: 18px;
+    padding: 15px 30px;
+    margin-top: 50px;
 }
 /*Class "join" has a Navy Background Color and White Font Color.*/
 
 .msg{
     background-color: white;
     color: navy;
+    line-height: 1.5em;
+    padding: 35px;
 }
 /*Class "msg" has a Background Color that's White and Font Color of Navy.*/
+.msg h2{
+    font-family:Times New Roman, Arial, serif;
+}
+/**/
+.msg p{
+    font-size: .8em;
+    padding-bottom: 15px;
+}
+/*Paragraph in Class "msg" will have a Font Size of .8em and 15px Padding at the Bottom.*/
 
 footer{
     background-color: blue;
     color: white;
+    padding: 25px 50px;
+    margin-top: 200px;
 }
-/*Footer has a Blue Background Color and White Font Color.*/
+/*Footer has a Blue Background Color, White Font Color, and a Padding of different Horizontal and Vertical Measurements.*/
 footer p {
     font-size: 1.2em;
 }    
@@ -104,8 +132,45 @@ footer p a:hover {
     text-decoration: underline;
 }    
 /*When Hovering, Footer's Paragraph will Underline.*/
+footer .social img{
+    padding-top: 15px;
+} 
+/*The Image in Class "social" inside Footer has a 15px Padding at the Top.*/
 
 .icon {
     width: 80px;
+    padding-top: 10px;
 }
 /*Class "icon" has Width of 80 px.*/
+
+.home-title{
+    font-family: 'Rock Salt', 'Bradley Hand', sans-serif;
+    font-size: 2em;
+    margin-top: 10px;
+}
+/*Class "home-title" has these optional Fonts.*/
+
+#logo_link{
+    padding-top: 5px;
+}
+/*This gives ID "logo_link" 5px of Padding at the Top.*/
+
+.rivers-card{
+    margin: 200px 0;
+}
+/*Class "rivers-card" has a Margin of 200px.*/
+
+.camping-card{
+    margin: 200px 0;
+}
+/*Class "camping-card" has a Margin of 200px.*/
+
+.rapids-card{
+    margin: 200px 0;
+}
+/*Class "rapids-card" has a Margin of 200px.*/
+
+.card-img {
+    border: 10px solid #d9c2a3;
+}
+/*Class "card-img" has a Border that is 10px.*/
