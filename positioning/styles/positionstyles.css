@@ -2,32 +2,42 @@
 /* CSS - Name: "positionstyles.css" */
 /* Activity 1 styles */
 .content1 {
-    /* This is the parent of the activity 1 boxes. */
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    justify-items: center;
+    gap: 20px;
 }
+/* This is the parent of the activity 1 boxes. */
+
     .red1 { 
-    width: 100px; 
-    height: 100px; 
-    background-color: red; 
+        background-color: red; 
+        width: 100%; 
+        height: 200px; 
+        grid-column: 1/3;
     } 
-    /*Class "red1" has a Height and Width of XXX px.*/
-    .green1 {
-    width: 100px; 
-    height: 100px; 
-    background-color: green; 
-    } 
-    /*Class "green1" has a Height and Width of XXX px.*/
-    .yellow1 {
-    width: 100px; 
-    height: 100px; 
-    background-color: gold; 
-    } 
-    /*Class "yellow1" has a Height and Width of XXX px.*/
-    .blue1 {
-    width: 100px; 
-    height: 100px; 
-    background-color: blue; 
-    } 
-    /*Class "blue1" has a Height and Width of XXXpx.*/
+    /*This makes class "red1" full width.*/
+
+    .blue1{
+        background-color: blue;
+        width: 100%;
+        height: 200px;
+        grid-column: 1/3;
+    }
+    /*This makes class "blue1" full width.*/
+
+    .green1{
+        background-color: green;
+        height: 400px;
+        width: 400px;
+    }
+    /**/
+
+    .yellow1{
+        background-color: yellow;
+        height: 400px;
+        width: 400px;
+    }
+    /**/
 
  /* Activity 2 styles */ 
 .content2 {
