@@ -112,30 +112,50 @@ background-color: blue;
     /*Blue is the Footer, however, there's obvious space between Blue and the Bottom of the page.*/
 
  /* Activity 4 styles */ 
-.content4 {
-    /* This is the parent of the activity 4 boxes. */
-    height: 400px;
+ .content4{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: 1fr 1fr 1fr;
+    gap: 0px 0px;
 }
-.red4 {
-width: 100px; 
-height: 100px; 
-background-color: red; 
- } 
-.green4 {
-width: 100px; 
-height: 100px; 
-background-color: green; 
-} 
-.yellow4 {
-width: 100px; 
-height: 100px; 
-background-color: gold; 
- } 
-.blue4 {
-width: 100px; 
-height: 100px; 
-background-color: blue; 
- } 
+/**/
+    .red4{
+        background-color: red;
+        width: 100%;
+        height: 960px;
+        grid-area: 1/1/4/2;
+        justify-self: initial;
+        align-self: intial;
+    }
+    /**/
+    .green4{
+        background-color: green;
+        width: 100%;
+        height: 320px;
+        grid-area: 1/2/2/3;
+        justify-self: inital;
+        align-self: initial;
+    }
+    /**/
+    .yellow4{
+        background-color: yellow;
+        width: 100%;
+        height: 320px;
+        grid-area: 2/2/3/3;
+        justify-self: initial;
+        align-self: initial;
+    }
+    /**/
+    .blue4{
+        background-color: blue;
+        width: 100%;
+        height: 320px;
+        grid-area: 3/2/4/3;
+        justify-self: initia;
+        align-self: initial;
+    }
+    /**/
+
  /* Activity 5 styles */ 
  .content5 {
     /* This is the parent of the activity 5 boxes. */
