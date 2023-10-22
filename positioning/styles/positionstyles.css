@@ -277,6 +277,7 @@
         grid-area: 2/2/4/4;
         justify-self: initial;
         align-self: initial;
+        z-index: 5;
     }
     /**/
 
