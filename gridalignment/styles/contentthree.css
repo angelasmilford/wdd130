@@ -1,0 +1,41 @@
+.content3{
+    width: 80%;
+    height: 500px;
+    border: 1px solid;
+    display: grid;
+    grid-template-columns: 150px 150px;
+    grid-template-rows: 150px 150px;
+    justify-content: center;
+    align-content: center;
+    justify-items: center;
+    align-items: center;
+}
+/*This is for Parent class "content3".*/
+
+    .red3{
+        background-color: red;
+        width: 100px;
+        height: 100px;
+    }
+    /**/
+
+    .green3{
+        background-color: green;
+        width: 100px;
+        height: 100px;
+    }
+    /**/
+
+    .yellow3{
+        background-color: yellow;
+        width: 100px;
+        height: 100px;
+    }
+    /**/
+
+    .blue3{
+        background-color: blue;
+        width: 100px;
+        height: 100px;
+    }
+    /**/

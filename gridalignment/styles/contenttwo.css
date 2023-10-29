@@ -1,0 +1,39 @@
+.content2{
+    width: 80%;
+    height: 500px;
+    border: 1px solid;
+    display: grid;
+    grid-template-columns: 150px 150px;
+    grid-template-rows: 150px 150px;
+    justify-content: center;
+    align-content: center;
+}
+/*This is for Parent class "content2".*/
+
+    .red2{
+        background-color: red;
+        width: 100%;
+        height: 100%;
+    }
+    /**/
+
+    .green2{
+        background-color: green;
+        width: 100%;
+        height: 100%;
+    }
+    /**/
+
+    .yellow2{
+        background-color: yellow;
+        width: 100%;
+        height: 100%;
+    }
+    /**/
+
+    .blue2{
+        background-color: blue;
+        width: 100%;
+        height: 100%;
+    }
+    /**/
