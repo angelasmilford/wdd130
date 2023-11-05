@@ -1,0 +1,17 @@
+.grid-container{
+    display: grid;
+    grid-template-columns: 80px 200px auto 30px;
+    gap: 10px;
+    background-color: blue;
+    padding: 10px;
+}
+/*The Grid will have 4 Columns since there's four "autos".*/
+
+    .grid-container > div{
+        background-color: red;
+        text-align: center;
+        padding: 20px 0;
+        font-size: 30px;
+        color: gold;
+    }
+    /*I believe the ">" serves as an */

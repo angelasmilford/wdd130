@@ -1,0 +1,16 @@
+.grid-container{
+    display: grid;
+    justify-content: space-evenly;
+    grid-template-columns: 50px 50px 50px; /*Makes the grid smaller than the container.*/
+    gap: 10px;
+    background-color: yellow;
+    padding: 10px;
+}
+
+    .grid-container > div{
+        background-color: black;
+        text-align: center;
+        padding: 20px 0;
+        font-size: 30px;
+        color: cyan;
+    }
