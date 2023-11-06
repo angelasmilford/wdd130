@@ -1,0 +1,114 @@
+#content{
+    max-width: 1600px;
+    text-align: center;
+    margin: 0 auto;
+}
+/**/
+
+    header img{
+        width: 100%;
+        height: 450px;
+        margin: 0 auto;
+    }
+    /**/
+        #logo-link{
+            padding-top: 5px;
+            justify-self: center;
+            align-self: center;
+        }
+        nav{
+            display: flex;
+            justify-content: space-around;
+            background-color: navy;
+        }
+        nav a{
+            text-align: center;
+            background-color: navy;
+            color: brown;
+            text-decoration: none;
+            font-size: 25px;
+            padding: 35px;
+        }
+
+        #hero{
+            display: grid;
+            grid-template-columns: 1fr 3fr 1fr;
+            margin-top: -100px;
+        }
+        #hero-box{
+            grid-column: 1/4;
+            grid-row: 1/3;
+            z-index: -1;
+        }
+        /**/
+        #hero-msg{
+            text-align: center;
+            grid-column: 2/3;
+            grid-row: 1/2;
+            margin-top: 100px;
+        } 
+        /*elements in ID "hero-msg" are Centerred.*/
+            .home-title{
+                font-family: 'Times New Roman', Times, serif;
+                font-size: 2em;
+                margin-top: 10px;
+                color: white;
+            }
+            /*Class "home-title" has these optional Fonts.*/
+            .button-box{
+                text-align: center;
+                color: white;
+            }
+            /*elements in Class "button-box" are Centerred.*/
+                .reachout{
+                    background-color: navy;
+                    color: brown;
+                    padding: 15px 30px;
+                }
+                /*Class "book" has a Background Color of Navy and Font Color of White.*/
+                .reachout a:hover{
+                    background-color: navy;
+                    color: white;
+                    font-size: 18px;
+                    margin-top: 50px;
+                }
+                /*when Hovering, Class "book" changes to having a Background Color to White and Font Color to White.*/
+        #hero-msg h4{
+            color: white;
+        }
+        /**/
+
+        .samoa-card{
+            margin: 200px 0;
+            grid-column: 2/4;
+            grid-row: 2/3;
+        }
+
+        .fiji-card{
+            margin: 200px 0;
+            grid-column: 2/4;
+            grid-row: 2/3;
+        }
+
+        .card-img {
+            border: 10px solid cyan;
+            transition: transform .5s;
+            box-shadow: 5px 5px 10px red;
+        }
+        /*Class "card-img" has a Border that is 10px.*/
+        .card-img:hover{
+            opacity: .6;
+            transform: scale(1.1);
+        }
+
+        .icon {
+            width: 80px;
+            padding-top: 10px;
+        }
+
+
+
+    .social img{
+        width: 60px;
+        height: 60px;
+    }

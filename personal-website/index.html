@@ -3,17 +3,84 @@
     <head>
         <link rel="stylesheet" href="styles/styles.css">
         <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE-edge">
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
-        <title>Personal Website Site</title>
+        <title>Personal Website | Personal Introduction | Home</title>
     </head>
 
     <body>
-        <main>
-            <h1>My Personal Website</h1>
-            <p>My Personal Website will be about the history of my Samoan and Fijian heritage. The homepage will contain a general overview of the Pacific culture,
-                and two subpages (one for Samoa and one for Fijian) will expand more on their respective cultures and traditions.
-            </p>
-        </main>
+        <div id="content">
+            <header>
+                <a id="logo_link" href="index.html">
+                    <!--This Image is in a Class called "logo", and it is an External Image.-->
+                    <img class="logo" src="images/logo.png" alt="Personal Website's Logo">
+                </a>
+
+                <nav>
+                  <a href="index.html">Home</a>             
+                  <a href="samoa.html">Samoa</a>
+                  <a href="fiji.html">Fiji</a>
+                  <a href="contact-me.html">Contact Me</a>
+                </nav>
+            </header>
+    
+            <div id="hero">
+                <!--This Semantic Element has an Image in ID "hero-box"-->
+                <div id="hero-box">
+                    <img id="hero-img" src="https://images.pexels.com/photos/831084/pexels-photo-831084.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1" alt="Pacific Ocean">
+                </div>
+    
+                <!--This is where the Texts are Diplayed.-->
+                <section id="hero-msg">
+                    <h1 class="home-title">Talofa lava and Bulavinaka from American Samoa!</h1>
+                    <h4>My name is Angela S. Milford, and I hail from an island called "Tutuila". My ancestry is linked to two Countries in the vast oceans of the Pacific: Samoa and Fiji. I'm excited to give you a feel of what it is like to be in both Samoa and Fiji.</h4>
+    
+                    <!--This Semantic element is in a class called "button-box".-->
+                    <div class="button-box">
+                        <!--This Hyperlink is in a class called "book", and it leads you to the "Contact Us" subpage of the Website.-->
+                        <a class="reachout" href="contact-me.html">Reach Out</a>
+                    </div>
+                </section>
+            </div>
+
+            <main class="home-grid">
+                <!--Samoa-->
+                <section class="samoa-card">
+                    <img class="flag" src="https://upload.wikimedia.org/wikipedia/commons/thumb/3/31/Flag_of_Samoa.svg/640px-Flag_of_Samoa.svg.png" alt="Samoan Flag">
+                    <img class="sigil" src="https://upload.wikimedia.org/wikipedia/commons/thumb/e/ea/Coat_of_arms_of_Samoa.svg/1200px-Coat_of_arms_of_Samoa.svg.png" alt="Samoa Coat of Arms">
+                    <h2>Samoa</h2>
+                </section>
+
+                <!--Fiji-->
+                <section class="fiji-card">
+                    <img class="flag" src="https://upload.wikimedia.org/wikipedia/commons/thumb/b/ba/Flag_of_Fiji.svg/2560px-Flag_of_Fiji.svg.png" alt="Fijian Flag">
+                    <img class="sigil" src="https://upload.wikimedia.org/wikipedia/commons/thumb/c/c7/Coat_of_arms_of_Fiji.svg/1200px-Coat_of_arms_of_Fiji.svg.png" alt="Fiji Coat of Arms">
+                    <h2>Fiji</h2>
+                </section>
+            </main>
+            
+            <!--Footer-->
+            <footer>
+                <p>Personal Website &copy; 2023 - Angela S. Milford</p>
+                <p><a href="site-plan.html">Site Plan</a></p>
+                <p><a href="contact-us.html">Contact Us</a></p>
+    
+                <div class="social">
+                    <!--Facebook-->
+                    <a href="https://facebook.com/angelasmilford" target="_blank">
+                        <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/b/b8/2021_Facebook_icon.svg/2048px-2021_Facebook_icon.svg.png" alt="Facebook icon">
+                    </a>
+                    <a href="https://twitter.com/angelasmilford" target="_blank">
+                        <img src="https://uxwing.com/wp-content/themes/uxwing/download/brands-and-social-media/x-social-media-logo-icon.png" alt="Twitter icon">
+                    </a>
+                    <a href="https://instagram.com/angelasmilford" target="_blank">
+                        <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/a/a5/Instagram_icon.png/600px-Instagram_icon.png" alt="Instagram icon">
+                    </a>
+                    <a href="https://linkedin.com/angelasmilford" target="_blank">
+                        <img src="https://cdn-icons-png.flaticon.com/512/174/174857.png" alt="LinkedIn icon">
+                    </a>
+            </footer>
+        </div>
     </body>
 
 </html>
