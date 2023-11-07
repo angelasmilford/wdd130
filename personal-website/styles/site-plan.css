@@ -5,25 +5,25 @@ Fonts are separated by a | */
 
 :root {
   /* change the values below to your colors from your palette */
-  --primary-color: #396E94   ;
-  --secondary-color: #E7C24F ;
-  --accent1-color: #A42212;
-  --accent2-color: white;
+  --primary-color: navy;
+  --secondary-color: red;
+  --accent1-color: #ffd88a;
+  --accent2-color: brown;
 
   /* change the values below to your chosen font(s) */
   --heading-font: "IM Fell French Canon SC";
   --paragraph-font: Lato, Helvetica, sans-serif;
 
   /* these colors below should be chosen from among your palette colors above */
-  --headline-color-on-white: #396E94;  /* headlines on a white background */ 
+  --headline-color-on-white: navy;  /* headlines on a white background */ 
   --headline-color-on-color: white; /* headlines on a colored background */ 
-  --paragraph-color-on-white: #396E94; /* paragraph text on a white background */ 
+  --paragraph-color-on-white: red; /* paragraph text on a white background */ 
   --paragraph-color-on-color: white; /* paragraph text on a colored background */ 
-  --paragraph-background-color: #396E94  ;
-  --nav-link-color: #396E94;
-  --nav-background-color: #D4AC0D;
-  --nav-hover-link-color: white;
-  --nav-hover-background-color: #396E94;
+  --paragraph-background-color: navy;
+  --nav-link-color: brown;
+  --nav-background-color: #ffd88a;
+  --nav-hover-link-color: navy;
+  --nav-hover-background-color: red;
 }
 
 
@@ -41,8 +41,8 @@ img {
   margin: 0 auto;
 }
 h1, h2, h3, h4, h5, h6 {
-  font-family: var(--heading-font);
-  color: var(--headline-color-on-white);
+  font-family: 'Times New Roman', Times, serif;
+  color: black;
 }
 h2 {
   text-align: center;
@@ -50,21 +50,21 @@ h2 {
 hr {
   height: 3px;
   margin: 35px 0;
-  background: var(--accent1-color);
+  background: navy;
 }
 header {
   padding: 1em;
   text-align: center;
-  color: var(--headline-color-on-color);
+  color: red;
   background-color: var(--paragraph-background-color);
 }
 header > h1, header > h2 {
-  color: var(--headline-color-on-color);
+  color: navy;
 }
 
 p {
-  font-family: var(--paragraph-font);
-  color: var(--paragraph-color-on-white);
+  font-family: Arial, Helvetica, sans-serif;
+  color: navy;
   padding: 1em;
 }
 .colors {
@@ -82,16 +82,16 @@ p {
 }
 
 .primary {
-  background-color: var(--primary-color);
+  background-color: navy;
 }
 .secondary {
-  background-color: var(--secondary-color);
+  background-color: red;
 }
 .accent1 {
-  background-color: var(--accent1-color);
+  background-color: #ffd88a;
 }
 .accent2{
-  background-color: var(--accent2-color);
+  background-color: brown;
 }
 
 p.colored {
@@ -100,7 +100,7 @@ p.colored {
 }
 
 nav {
-  background-color: var(--nav-background-color);
+  background-color: #ffd88a;
   line-height: 3em;
   text-align: center;
   font-size: 1.2em;
@@ -121,8 +121,8 @@ nav a:link, nav a:visited {
   color: var(--nav-link-color);
 }
 nav a:hover {
-  color: var(--nav-hover-link-color);
-  background-color: var(--nav-hover-background-color);
+  color: navy;
+  background-color: red;
 }
 
 .sitemap {
