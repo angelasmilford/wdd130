@@ -1,10 +1,17 @@
 #content{
     max-width: 1600px;
-    text-align: center;
     margin :0 auto;
 }
 /*Max Width of elements in ID "content" are set to 1600 px.
 Texts and Images in "content" ID are Centerred.*/
+
+header{
+    background-color: white;
+    color: navy;
+    display: grid;
+    grid-template-columns: 150px auto;
+}
+/*This adjusts HEADER's Background Color to White and Font Color to Navy.*/
 
 #logo_link{
     padding-top: 5px;
@@ -12,6 +19,10 @@ Texts and Images in "content" ID are Centerred.*/
     align-self: center;
 }
 /*This gives ID "logo_link" 5px of Padding at the Top.*/
+    #logo_link img{
+        width: 80px;
+    }
+/**/
 
 nav{
     display: flex;
@@ -44,6 +55,9 @@ nav{
         z-index: -1;
     }
     /**/
+    #hero-img{
+        width: 100%;
+    }
     #hero-msg{
         text-align: center;
         grid-column: 2/3;
@@ -77,8 +91,12 @@ nav{
     #hero-msg h4{
         color: white;
     }
-    /**/
+    /*Makes the Text in id "hero-msg" font color White.*/
 
+.home-grid{
+    display: grid;
+    grid-template-columns: 10fr;
+}
     .rivers-card{
         margin: 200px 0;
         grid-column: 2/4;
@@ -124,6 +142,12 @@ nav{
     }
     /**/
 
+main section{
+    text-align: center;
+    box-sizing: border-box;
+}
+/*elements in the Section of MAIN are Centerred.*/
+    
 h1{
     text-align: center;
 } 
@@ -133,14 +157,6 @@ h4{
     text-align: center;
 }
 /*Headline #4 is Centerred.*/
-
-
-
-main section{
-    text-align: center;
-    box-sizing: border-box;
-}
-/*elements in the Section of MAIN are Centerred.*/
 
 #background {
     height: 725px;
@@ -165,16 +181,6 @@ h2 {
     margin: 0;
 }
 /*Headline 2 has a Margin of 0.*/
-
-header{
-    background-color: white;
-    color: navy;
-    display: grid;
-    grid-template-columns: 150px auto;
-}
-/*This adjusts HEADER's Background Color to White and Font Color to Navy.*/
-
-
 
 .join{
     background-color: navy;
@@ -233,10 +239,6 @@ footer .social img{
     padding-top: 10px;
 }
 /*Class "icon" has Width of 80 px.*/
-
-
-
-
 
 @media screen and (max-width: 900px){
     #hero, .home-grid{
