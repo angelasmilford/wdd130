@@ -1,29 +1,58 @@
 <!DOCTYPE html>
 <html lang="en">
     <head>
+        <link rel="stylesheet" href="styles/styles.css">
         <meta charset="UTF-8">
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
         <title>Fiji</title>
     </head>
     
     <body>
-        <header>
-            <a id="logo_link" href="index.html">
-                <!--This Image is in a Class called "logo", and it is an External Image.-->
-                <img class="logo" src="images/logo.png" alt="Personal Website's Logo">
-            </a>
+        <div id="content">
+            <header>
+                    <!--This Hyperlink is in an ID called "logo_link" and it takes you to the Home Page of the Website.-->
+                    <a id="logo_link" href="index.html">
+                        <!--This Image is in a Class called "logo", and it is an External Image.-->
+                        <img class="logo" src="images/Black White Minimalist Circle Monogram Logo.png" alt="Logo">
+                    </a>
+        
+                    <!--Navigation Panel.-->
+                    <nav>
+                        <!--This Hyperlink leads you to the Home Page of the Website.-->
+                        <a href="index.html">Home</a>
+                        <!--This Hyperlink leads you to Page 2, a Subpage of the Website.-->
+                        <a href="samoa.html">Samoa</a>
+                        <!--This Hyperlink leads you to the "Site Plan" Subpage of the Website.-->
+                        <a href="fiji.html">Fiji</a>
+                        <!--This Hyperlink leads you to the "Contact Us" Subpage of the Website.-->
+                        <a href="site-plan.html">Site Plan</a>
+                    </nav>
 
-            <nav>
-              <a href="index.html">Home</a>             
-              <a href="samoa.html">Samoa</a>
-              <a href="fiji.html">Fiji</a>
-              <a href="contact-me.html">Contact Me</a>
-            </nav>
-        </header>
-
-        <section id="fiji-msg">
-            <h1 class="fijian-title">Bulavinaka, Visitor!</h1>
-            <h4>Welcome to Angela S. Milford's Melanesian side. Here, will be learning what Fiji is all about.</h4>
-        </section>
+                    <div id="hero">
+                        <!--This Semantic Element has an Image in ID "hero-box"-->
+                        <div id="hero-box">
+                            <img id="hero-img" src="https://images.pexels.com/photos/831084/pexels-photo-831084.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1" alt="Pacific Ocean">
+                        </div>
+            
+                        <!--This is where the Texts are Diplayed.-->
+                        <section id="hero-msg">
+                            <h1 class="home-title">Talofa lava and Bulavinaka from American Samoa!</h1>
+                            <h4>My name is Angela S. Milford, and I hail from an island called "Tutuila". My ancestry is linked to two Countries in the vast oceans of the Pacific: Samoa and Fiji. I'm excited to give you a feel of what it is like to be in both Samoa and Fiji.</h4>
+            
+                            <!--This Semantic element is in a class called "button-box".-->
+                            <div class="button-box">
+                                <!--This Hyperlink is in a class called "book", and it leads you to the "Contact Us" subpage of the Website.-->
+                                <a class="reachout" href="contact-me.html">Reach Out</a>
+                            </div>
+                        </section>
+                    </div>
+            </header>
+    
+            <section id="fiji-msg">
+                <h1 class="fijian-title">Bulavinaka, Visitor!</h1>
+                <h4>Bulavinaka! In English, Welcome! This page showcases Angela S. Milford's Melanesian side. Here, we'll be learning what Fiji is all about.</h4>
+            </section>
+        </div>
     </body>
+
 </html>

@@ -19,7 +19,7 @@ header{
     align-self: center;
 }
 /*This gives ID "logo_link" 5px of Padding at the Top.*/
-    #logo_link img{
+    .logo{
         width: 80px;
     }
 /**/
