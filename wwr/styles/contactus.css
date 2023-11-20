@@ -1,0 +1,64 @@
+#content{
+    max-width: 1600px;
+    margin :0 auto;
+}
+/*Max Width of elements in ID "content" are set to 1600 px.
+Texts and Images in "content" ID are Centerred.*/
+
+header{
+    background-color: white;
+    color: navy;
+    display: grid;
+    grid-template-columns: 150px auto;
+}
+/*This adjusts HEADER's Background Color to White and Font Color to Navy.*/
+
+#logo_link{
+    padding-top: 5px;
+    justify-self: center;
+    align-self: center;
+}
+/*This gives ID "logo_link" 5px of Padding at the Top.*/
+    .logo img{
+        position: absolute;
+        width: 5px;
+        margin-top: 15px;
+        margin-left: 10px;
+
+    }
+
+nav{
+    background-color: navy;
+}
+    nav a{
+        color: white;
+        display: block;
+        padding: 20px 15px;
+        text-decoration: none;
+        font-family: Arial, Helvetica, sans-serif;
+        text-align: center;
+    }
+
+#feedback {
+    background-color: antiquewhite;
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    padding: .5em;
+    /* make this element invisible until we are ready for it */
+    display: none;      
+}
+.moveDown {
+    margin-top: 3em;
+}
+
+footer{
+    background-color: navy;
+    color: white;
+}
+
+a:hover{
+    background-color: white;
+    color:navy;
+}

@@ -46,21 +46,20 @@ banner-box{
     }
 
 #water-gallery{
-    display: grid;
-    grid-template-columns: 10fr;
+    display: block;
+    width: 100%;
 }
     #water-gallery img{
-        width: 250px;
-        height: 250px;
+        width: 500px;
+        height: 500px;
     }
-    #water-gallery p{
-        width: 300px;
+    #water-gallery h2,p{
+        width: 500px;
     }
         .rivers{
             margin: 200px 0;
-            grid-column: 2/4;
-            grid-row: 2/3;
         }
+
         .camping{
             margin: 200px 0;
             grid-column: 5/7;
