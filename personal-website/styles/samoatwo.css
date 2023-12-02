@@ -1,0 +1,78 @@
+/*The height of the webpage, I believe, is adjusted 100%.*/
+body, html {
+    height: 100%;
+    margin:0;
+    font-family:Georgia, 'Times New Roman', Times, serif;
+}
+
+/* Add a black background color to the top navigation */
+.topnav {
+    background-color: brown;
+    overflow: hidden;
+    margin: 0 auto;
+  }
+  
+  /* Style the links inside the navigation bar */
+  .topnav a {
+    float: left;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    font-size: 17px;
+    margin: 0 auto;
+  }
+  
+  /* Change the color of links on hover */
+  .topnav a:hover {
+    background-color: navy;
+    color: brown;
+  }
+  
+  /* Add a color to the active/current link */
+  .topnav a.active {
+    background-color: navy;
+    color: white;
+  }
+
+/* The hero image */
+.hero-image {
+  /* Use "linear-gradient" to add a darken background effect to the image (photographer.jpg). This will make the text easier to read */
+  background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url("https://www.qantas.com/travelinsider/en/explore/south-pacific/things-to-do-samoa/_jcr_content/parsysTop/hero.img.1440.high.jpg/1661989613455.jpg");
+
+  /* Set a specific height */
+  height: 50%;
+
+  /* Position and center the image to scale nicely on all screens */
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  position: relative;
+}
+
+/* Place text in the middle of the image */
+.hero-text {
+  text-align: center;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  color: white;
+}
+    .hero-text h1{
+        font-size: 50px;
+    }
+    .hero-text button{
+        border: none;
+        outline:0;
+        display: inline-block;
+        padding: 10px 25px;
+        color: navy;
+        background-color: purple, url("https://www.samoa.travel/");
+        text-align: center;
+        cursor: pointer;
+    }
+    .hero-text button:hover{
+        background-color: navy, url("https://www.samoa.travel/");
+        color: white;
+    }
