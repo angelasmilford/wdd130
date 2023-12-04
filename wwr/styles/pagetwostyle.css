@@ -1,7 +1,7 @@
 #content{
     max-width: 1600px;
     margin: 0 auto;
-    display: block;
+    /*display: block;*/
     text-align: center;
 }
 
@@ -9,22 +9,26 @@ header{
     background-color: white;
     color: navy;
     display: grid;
-    /*grid-template-columns: 150px auto;*/
+    grid-template-columns: 150px auto;
 }
+/*This adjusts HEADER's Background Color to White and Font Color to Navy.*/
 
 #logo_link{
     padding-top: 5px;
     justify-self: center;
     align-self: center;
 }
+/*This gives ID "logo_link" 5px of Padding at the Top.*/
     .logo{
-        width: 100%;
+        width: 80px;
     }
+/**/
 
 nav{
     display: flex;
     justify-content: space-around;
 }
+/**/
     nav a{
         text-align: center;
         background-color: white;
@@ -32,10 +36,12 @@ nav{
         text-decoration: none;
         padding: 35px;
     }
+    /*Hyperlinks in Navigation Panel are Centerred.*/
     nav a:hover{
         background-color:navy;
         color:white;
     }
+    /*hovering Navigation Panel turns Background Color to Navy and Font Color to White.*/
 
 banner-box{
     grid-column: 1/4;
@@ -70,3 +76,26 @@ banner-box{
             grid-column: 8/10;
             grid-row: 2/3;
         }
+
+footer{
+    background-color: blue;
+    color: white;
+    padding: 25px 50px;
+    margin-top: 200px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+    /*Footer has a Blue Background Color, White Font Color, and a Padding of different Horizontal and Vertical Measurements.*/
+    footer p {
+        font-size: 1.2em;
+    }    
+    /*The Paragraph in Footer is 1.2em.*/
+    footer p a:hover {
+        text-decoration: underline;
+    }    
+    /*When Hovering, Footer's Paragraph will Underline.*/
+    footer .social img{
+        padding-top: 15px;
+    } 
+    /*The Image in Class "social" inside Footer has a 15px Padding at the Top.*/    
