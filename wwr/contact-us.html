@@ -1,38 +1,39 @@
 <!DOCTYPE html>
 <html lang="en">
     <head>
+        <link rel="stylesheet" href="styles/contactustwo.css">
         <meta charset="UTF-8">
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
-        <title>Contact Us</title>
-        <link rel="stylesheet" href="contactus.styles">
+        <title>Form</title>
     </head>
 
     <body>
-        <div id="content">
+        <!--Header-->
         <header>
-                <!--This Hyperlink is in an ID called "logo_link" and it takes you to the Home Page of the Website.-->
-                <a id="logo_link" href="index.html">
-                    <!--This Image is in a Class called "logo", and it is an External Image.-->
-                    <img class="logo" src="images/logo.png" alt="Dry Oar Logo">
-                </a>
-    
-                <!--Navigation Panel.-->
-                <nav>
-                    <!--This Hyperlink leads you to the Home Page of the Website.-->
-                    <a href="index.html">Home</a>
-                    <!--This Hyperlink leads you to Page 2, a Subpage of the Website.-->
-                    <a href="page-two.html">Activities</a>
-                    <!--This Hyperlink leads you to the "Site Plan" Subpage of the Website.-->
-                    <a href="site-plan-rafting.html">Site Plan</a>
-                    <!--This Hyperlink leads you to the "Contact Us" Subpage of the Website.-->
-                    <a href="contactus.html">Contact Us</a>
-                </nav>
+            <!--This Hyperlink is in an ID called "logo_link" and it takes you to the Home Page of the Website.-->
+            <a id="logo_link" href="index.html">
+                <!--This Image is in a Class called "logo", and it is an External Image.-->
+                <img class="logo" src="images/logo.png" alt="Dry Oar Logo">
+            </a>
+
+            <!--Navigation Panel.-->
+            <nav>
+                <!--This Hyperlink leads you to the Home Page of the Website.-->
+                <a href="index.html">Home</a>
+                <!--This Hyperlink leads you to Page 2, a Subpage of the Website.-->
+                <a href="page-two.html">Activities</a>
+                <!--This Hyperlink leads you to the "Site Plan" Subpage of the Website.-->
+                <a href="site-plan-rafting.html">Site Plan</a>
+                <!--This Hyperlink leads you to the "Contact Us" Subpage of the Website.-->
+                <a href="contactus.html">Contact Us</a>
+            </nav>
         </header>
 
+        <!--Form Code-->
         <main>
             <div id="feedback"></div>
 
-            <!--This is where the Form for the user to fill out.-->
+            <!--Form Box-->
             <form action="/my-handling-form-page" method="post">
                 <ul>
                   <li>
@@ -48,11 +49,22 @@
                     <textarea id="msg" name="user_message"></textarea>
                   </li>
                 </ul>
-              </form>
+            </form>
+
+            <!--This is basically-->
+            <input type="text" value="Share me your thoughts on this Website." />
+
+            
+            <textarea>
+                For additional information unrelated to feedback, type here.
+            </textarea>
+
+            <li class="button">
+                <button type="submit">Submit</button>
+            </li>
         </main>
 
-        <div id="feedback"></div>
-
+        <!--Footer-->
         <footer>
             <p>Dry Oar &copy; 2023 - Angela S. Milford</p>
             <p><a href="site-plan-rafting.html">Site Plan</a></p>
@@ -72,6 +84,7 @@
             </div>
         </footer>
 
+        <!--Functional Forms-->
         <script>
             // get the feedback div element so we can do something with it.
             const feedbackElement = document.getElementById('feedback');
@@ -89,6 +102,5 @@
                 document.body.classList.toggle('moveDown');
             });
         </script>
-        </div>
     </body>
 </html>
