@@ -13,6 +13,7 @@ body, html{
         grid-template-columns: 150px auto;
     }
         /*LOGO IN NAVIGATION BAR*/
+
         #logo_link{
             padding-top: 5px;
             justify-self: center;
@@ -34,18 +35,15 @@ body, html{
             }
             nav a:hover{
                 color: navy;
-                text-decoration: bold;
+                text-decoration: none;
                 font-size: 2em;
             }
 
     
     /*BANNER*/
-    /* The hero image */
 
+    /* The hero image */
     .hero-image {
-        /* Use "linear-gradient" to add a darken background effect to the image (photographer.jpg). This will make the text easier to read */
-        background-image: white, url("");
-  
         /* Set a specific height */
         height: 25%;
   
@@ -83,7 +81,7 @@ body, html{
         .self-intro img{
             display: block;
             margin: 0 auto;
-            width: 20%;
+            width: 50%;
             margin-top: 20px;
             margin-bottom: 10px;
         }
@@ -108,7 +106,6 @@ body, html{
             font-size: 1.2em;
         }
         footer p a:hover{
-            text-decoration: bold;
             color: navy;
             font-size: 2em;
         }
