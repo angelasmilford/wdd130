@@ -1,78 +1,126 @@
 <!DOCTYPE html>
 <html lang="en">
     <head>
-        <link rel="stylesheet" href="styles/styles.css">
+        <link rel="stylesheet" href="styles/fiji.css">
         <meta charset="UTF-8">
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
         <title>Fiji</title>
     </head>
     
     <body>
-        <div id="content">
-            <header>
-                    <!--This Hyperlink is in an ID called "logo_link" and it takes you to the Home Page of the Website.-->
-                    <a id="logo_link" href="index.html">
-                        <!--This Image is in a Class called "logo", and it is an External Image.-->
-                        <img class="logo" src="images/Black White Minimalist Circle Monogram Logo.png" alt="Logo">
-                    </a>
-        
-                    <!--Navigation Panel.-->
-                    <nav>
-                        <!--This Hyperlink leads you to the Home Page of the Website.-->
-                        <a href="index.html">Home</a>
-                        <!--This Hyperlink leads you to Page 2, a Subpage of the Website.-->
-                        <a href="samoa.html">Samoa</a>
-                        <!--This Hyperlink leads you to the "Site Plan" Subpage of the Website.-->
-                        <a href="fiji.html">Fiji</a>
-                        <!--This Hyperlink leads you to the "Contact Us" Subpage of the Website.-->
-                        <a href="site-plan.html">Site Plan</a>
-                    </nav>
+        <!--HEADER-->
+        <header>
+            <a id="logo_link" href="index-two.html">
+                <img class="logo" src="images/logo.png.png" alt="Heritage Website Logo">
+            </a>
 
-                    <div id="hero">
-                        <!--This Semantic Element has an Image in ID "hero-box"-->
-                        <div id="hero-box">
-                            <img id="hero-img" src="https://images.pexels.com/photos/831084/pexels-photo-831084.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1" alt="Pacific Ocean">
-                        </div>
-            
-                        <!--This is where the Texts are Diplayed.-->
-                        <section id="hero-msg">
-                            <h1 class="home-title">Talofa lava and Bulavinaka from American Samoa!</h1>
-                            <h4>My name is Angela S. Milford, and I hail from an island called "Tutuila". My ancestry is linked to two Countries in the vast oceans of the Pacific: Samoa and Fiji. I'm excited to give you a feel of what it is like to be in both Samoa and Fiji.</h4>
-            
-                            <!--This Semantic element is in a class called "button-box".-->
-                            <div class="button-box">
-                                <!--This Hyperlink is in a class called "book", and it leads you to the "Contact Us" subpage of the Website.-->
-                                <a class="reachout" href="contact-me.html">Reach Out</a>
-                            </div>
-                        </section>
-                    </div>
-            </header>
-    
-            <section id="fiji-msg">
-                <h1 class="fijian-title">Bulavinaka, Visitor!</h1>
-                <h4>Bulavinaka! In English, Welcome! This page showcases Angela S. Milford's Melanesian side. Here, we'll be learning what Fiji is all about.</h4>
-            </section>
+            <nav>
+                <a href="index-two.html">Home</a>
+                <a href="samoa-two.html">Samoa</a>
+                <a href="fiji.html">Fiji</a>
+                <a href="contactme.html">Contact Me</a>
+            </nav>
+        </header>
 
-            <footer>
-                <p>Personal Website &copy; 2023 - Angela S. Milford</p>
-                <p><a href="site-plan.html">Site Plan</a></p>
-                <p><a href="contactme.html">Contact Me</a></p>
-    
-                <div class="social">
-                    <!--Facebook-->
-                    <a href="https://facebook.com/angelasmilford" target="_blank">
-                        <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/b/b8/2021_Facebook_icon.svg/2048px-2021_Facebook_icon.svg.png" alt="Facebook icon">
-                    </a>
-                    <a href="https://twitter.com/angelasmilford" target="_blank">
-                        <img src="https://uxwing.com/wp-content/themes/uxwing/download/brands-and-social-media/x-social-media-logo-icon.png" alt="Twitter icon">
-                    </a>
-                    <a href="https://instagram.com/angelasmilford" target="_blank">
-                        <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/a/a5/Instagram_icon.png/600px-Instagram_icon.png" alt="Instagram icon">
-                    </a>
-                    <a href="https://linkedin.com/angelasmilford" target="_blank">
-                        <img src="https://cdn-icons-png.flaticon.com/512/174/174857.png" alt="LinkedIn icon">
-            </footer>
+        <!--BANNER-->
+        <div class="hero-image">
+            <div class="hero-text">
+                <h1>Bula Vinaka, Visitor!</h1>
+                <p>
+                    Welcome to the Melanesian side of Teph Milford. 
+                    Here, you will be learning about what Fiji is all about!
+                </p>
+
+                <!--BUTTON-->
+                <a href="https://www.fiji.travel/">
+                    <button class="button">Visit Fiji</button>
+                  </a>                  
+            </div>
         </div>
+
+        <!--CARDS-->
+        <main class="home-grid">
+            <!--FIJI's Section-->
+            <div id="background"></div> 
+            <img class="fiji" src="https://www.fbcnews.com.fj/wp-content/uploads/2021/03/Suva-Port-Investment-Fiji.jpg" alt="The capital of Fiji: Suva.">
+            <section class="msg">
+                <h2>Fiji</h2>
+                <p>
+                    Fiji is a Melanesian nation in the South Pacific Ocean, comprising more than 300 islands. 
+                    The archipelago is widely recognized for its well-deserved reputation as “the soft coral capital of the world.” 
+                    The capital of Fiji is Suva, which is on its main island. Fiji has four districts, each of which is further subdivided into thirteen provinces. 
+                    Due to the country’s many provinces, there are a variety of dialects spoken; however, the main dialect practiced is called “Bauan.” 
+                    Fiji, like many other Pacific nations, is rich in culture, history, and natural resources.
+                </p>
+            </section>
+        
+            <!--History's section-->
+            <section class="history-card">
+                <img class="card-img" src="https://images.antiquemapsandprints.com/scansr1/P-2-1-083a.jpg" alt="Fiji in Ancient Times">
+                <h2>History</h2>
+                <p>
+                    Fiji gained its independence in 1970, following its cession to the United Kingdom by the first King Cakobau. 
+                    Fiji’s government is a parliamentary democracy that recently elected a new Prime Minister, Sitiveni Rabuka, after seventeen consecutive years. 
+                    Fiji gained independence in 1970, following its cession to the United Kingdom.
+                    Fiji's government is a parliamentary democracy that recently elected a new Prime Minister, Sitiveni Rabuka, after seventeen consecutive years.
+                </p>
+            </section>
+        
+            <!--Culture's Section-->
+            <section class="culture-card">
+                <img class="card-img" src="https://www.fijiairways.com/sites/default/files/2020-05/Fiji%20Culture%20Village%201%201200x_0.jpg" alt="Fijians Dancing in their Traditional Wear.">
+                <h2>Culture</h2>
+                <p>
+                    Fiji is rich in cultural heritage. 
+                    The Fijian chiefdom is a hierarchy system practiced in villages where residents elect their leaders. The system recognizes both genders. 
+                    While some traditions are lost due to Christianity, Fiji’s traditions, core values, dances, tattoos, and language are still intact. 
+                    Fiji is rich in cultural heritage, with a strong emphasis on the Fijian chiefdom, a hierarchical system practiced in villages where residents elect their leaders. 
+                    The system recognizes both genders, and while some traditions have been lost due to the influence of Christianity, Fiji's traditions, core values, dances, tattoos, 
+                    and language remain largely intact.
+                </p>
+            </section>
+        
+            <!--Way of Life's Section-->
+            <section class="wayoflife-card">
+                <img class="card-img" src="https://www.fijiairways.com/sites/default/files/inline-images/Fiji%20Culture%20Village%202%201200x.jpg" alt="Fijian in the process of making Fire.">
+                <h2>Way of Life</h2>
+                <p>
+                    Life in Fiji is similar to Samoa. 
+                    Because of their commercial activities, Fijians are offered many job opportunities. 
+                    Most residents either work in commercial enterprises or sell their crops at flea markets. 
+                    Fiji is renowned for its hospitality, and as a result of its many beautiful sites, it draws many tourists who are treated with the utmost care.
+                </p>
+            </section>
+        </main>
+
+        <!--FOOTER-->
+        <footer>
+            <p>Heritage Website &copy; 2023 - Angela S. Milford</p>
+            <p><a href="site-plan.html">Site Plan</a></p>
+            <p><a href="contactme.html">Contact Me</a></p>
+
+            <div class="social">
+                <!--Facebook-->
+                <a href="https://facebook.com/angelasmilford" target="_blank">
+                    <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/b/b8/2021_Facebook_icon.svg/2048px-2021_Facebook_icon.svg.png" alt="Facebook icon">
+                </a>
+                
+                <!--Instagram-->
+                <a href="https://instagram.com/angelasmilford" target="_blank">
+                    <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/a/a5/Instagram_icon.png/600px-Instagram_icon.png" alt="Instagram icon">
+                </a>
+                
+                <!--X-->
+                <a href="https://twitter.com/angelasmilford" target="_blank">
+                    <img src="https://uxwing.com/wp-content/themes/uxwing/download/brands-and-social-media/x-social-media-black-icon.png" alt="X icon">
+                </a>
+
+                <!--LinkedIn-->
+                <a href="https://www.linkedin.com/in/angelasmilford/" target="_blank">
+                    <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/8/81/LinkedIn_icon.svg/2048px-LinkedIn_icon.svg.png" alt="LinkedIn icon">
+                </a>
+            </div>
+        </footer>
     </body>
 
 </html>

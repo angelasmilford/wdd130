@@ -2,13 +2,13 @@ body, html{
     height: 100%;
     margin: 0;
     font-family: 'Times New Roman', Times, serif;
-    background-color: red;
+    background-color: cyan;
 }
 
 
     /*HEADER*/
     header{
-        background-color: red;
+        background-color: cyan;
         color: navy;
         display: grid;
         grid-template-columns: 150px auto;
@@ -33,9 +33,10 @@ body, html{
                 text-decoration: none;
                 padding: 35px;
                 font-size: 1.2em;
+                color: navy;
             }
             nav a:hover{
-                background-color: cyan;
+                background-color: red;
                 color: navy;
                 text-decoration: none;
                 font-size: 2em;
@@ -45,7 +46,7 @@ body, html{
     /*BANNER*/
     .hero-image {
         /* Use "linear-gradient" to add a darken background effect to the image (photographer.jpg). This will make the text easier to read */
-        background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url("https://www.thoughtco.com/thmb/cxxXlRVRfR-Sl6-cFdHzjP6vHNs=/1500x0/filters:no_upscale():max_bytes(150000):strip_icc()/samoa--true-colour-satellite-image-142036113-5ae88809a474be0036ecc7f2.jpg");
+        background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url("https://4.bp.blogspot.com/-4uIJa9Nd0Gc/V3XgNWVNw-I/AAAAAAAACGA/WFQQvXCsEn8d50bQt2SM9qylcxQtKSZXgCLcB/s1600/fiji%2Bfrom%2Bspace.jpg");
 
         /* Set a specific height */
         height: 85%;
@@ -72,7 +73,7 @@ body, html{
                 font-size: 2em;
             }
             .button {
-                background-color: red;
+                background-color: cyan;
                 border: none;
                 color: navy;
                 padding: 15px 32px;
@@ -80,7 +81,7 @@ body, html{
                 text-decoration: none;
                 display: inline-block;
                 font-size: 16px;
-                font-family:Georgia, 'Times New Roman', Times, serif;
+                font-family: Georgia, 'Times New Roman', Times, serif;
               }
     
 
@@ -93,7 +94,7 @@ body, html{
             display: grid;
             grid-template-columns: 10fr;
         }
-            .samoa{
+            .fiji{
                 width: 100%;
                 grid-column: 2/7;
                 grid-row: 5/8;
@@ -169,7 +170,7 @@ body, html{
             color: white;
         }
         footer p a:hover{
-            background-color: cyan;
+            background-color: red;
             color: navy;
             font-size: 2em;
         }
